@@ -12,7 +12,7 @@ import java.util.Random;
  *
  * @author User
  */
-public class NewHeapSort {
+public class HeapSort {
     
         public static int[] createRandomIntArray(int size) {
         int[] answer = new int[size]; 
