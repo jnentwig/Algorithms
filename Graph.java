@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package graphs;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 /**
- * The representation of a graph. The graph is stored as an array of adjacency
- * lists, one for each vertex in the graph. The array is zero-based. FIXME:
- * indices for vertex numbers are not checked in addEdge nor
- * getAdjacenciesOfVertex FIXME: edge probability is not checked to be between
- * 0.0 and 1.0
- *
- * @author Erik Steinmetz
+	This program creates random graphs of various sizes and 
+	goes through them using depth first search
  */
 public class Graph {
 
